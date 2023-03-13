@@ -11,19 +11,26 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: white;
+  align-items: center;
+  height: 5rem;
 }
-
-.header__head {
+.headerr__head {
   color: green;
-  margin-top: 10px;
 }
-
 .header__list {
   display: flex;
   list-style: none;
 }
-
 .header__listitem {
-  margin: 15px 15px;
+  margin: 0 15px;
+  font-size: 18px;
   list-style: none;
+}
+.header__listitem:hover {
+  color: green;
+}
+
+.banner {
+  background-image: url(../../Asserts/Picsart_22-11-19_22-02-21-159.jpg);
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */

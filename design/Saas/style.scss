@@ -9,18 +9,30 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: white;
+    align-items: center;
+    height: 5rem;
 
+    &r__head{
+        color: green;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+    }
+    &__listitem{
+        margin: 0 15px;
+        font-size: 18px;
+        list-style: none;
+    }
+    &__listitem:hover{
+        color:green;
+    }
 }
-.header__head{
-    color: green;
-    margin-top: 10px;
+
+.banner{
+    background-image: url(../../Asserts/Picsart_22-11-19_22-02-21-159.jpg);
+    height: 100%;
 }
-.header__list{
-    display: flex;
-    list-style: none;
-}
-.header__listitem{
-    margin: 15px 15px;
-    list-style: none;
-}
+
+
 
